@@ -1,0 +1,134 @@
+//@font-face {
+//  font-family: 'PT Sans';
+//  src: local('PT Sans'), local('PTSans-Regular'), url('./fonts/ptsans.woff2') format('woff2'), url('./fonts/ptsans.woff') format('woff'), url('./fonts/ptsans.ttf') format('truetype');
+//  font-weight: 400;
+//  font-style: normal;
+//}
+//
+//@font-face {
+//  font-family: 'PT Sans';
+//  src: local('PT Sans Bold'), local('PTSans-Bold'), url('./fonts/ptsansbold.woff2') format('woff2'), url('./fonts/ptsansbold.woff') format('woff'), url('./fonts/ptsansbold.ttf') format('truetype');
+//  font-weight: 700;
+//  font-style: normal;
+//}
+//
+//
+//
+//@font-face {
+//  font-family: 'PT Sans';
+//  src: local('PT Sans Bold Italic'), local('PTSans-BoldItalic'), url('./fonts/ptsansbolditalic.woff2') format('woff2'), url('./fonts/ptsansbolditalic.woff') format('woff'), url('./fonts/ptsansbolditalic.ttf') format('truetype');
+//  font-weight: 700;
+//  font-style: italic;
+//}
+//
+//@font-face {
+//  font-family: 'PT Sans';
+//  src: local('PT Sans Italic'), local('PTSans-Italic'), url('./fonts/ptsansitalic.woff2') format('woff2'), url('./fonts/ptsansitalic.woff') format('woff'), url('./fonts/ptsansitalic.ttf') format('truetype');
+//  font-weight: 400;
+//  font-style: italic;
+//}
+
+
+//START MAIN STYLE
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300italic,400italic,600italic,700italic,800italic,300&subset=latin,cyrillic");
+//RESET
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead,  th {
+  background: transparent; border: 0; margin: 0; padding: 0; vertical-align: baseline;
+}
+* {  margin: 0;  padding: 0;  }
+
+html, body{
+  width: 100%;
+  font-family: 400 14px/100% 'PT Sans';
+  color: #000;
+}
+body {
+  background: #fff;
+  font: 400 14px/100% 'Open Sans' sans-serif;
+}
+
+//END MAIN STYLE
+
+//-----------------------------------------------START HEADER-----------------------------------------------
+
+header{
+  height:145px;
+  background: url("../img/header-top-bg.jpg") no-repeat;
+}
+//***********************************************END HEADER***********************************************
+
+
+//-----------------------------------------------START SLIDER-----------------------------------------------
+
+#slider{
+  height: 460px;
+  background: url("../img/slider.jpg") no-repeat;
+  width: 100%;
+}
+
+//***********************************************END SLIDER***********************************************
+
+
+
+//-----------------------------------------------START TECHNICS-----------------------------------------------
+
+#technics {
+  background: url("../img/second-screen.jpg") no-repeat;
+  height: 540px;
+}
+
+//***********************************************END TECHNICS***********************************************
+
+
+
+//-----------------------------------------------START NEWS_BLOCK-----------------------------------------------
+
+#news_block{
+  margin-top: 60px;
+}
+
+//***********************************************END NEWS_BLOCK***********************************************
+
+
+
+//-----------------------------------------------START FOOTER-----------------------------------------------
+
+footer {
+  .footer_top {
+    background: #ebebeb;
+    height: 50px;
+  }
+  .footer_bottom {
+    background: #1f201f;
+    height: 285px;
+  }
+}
+
+//***********************************************END FOOTER***********************************************
+
+
+//-----------------------------------------------START MEDIA-----------------------------------------------
+
+@media screen and (max-width: 1200px) {
+  
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (max-width: 767px) {
+
+}
+
+@media screen and (max-width: 480px) {
+
+}
+@media screen and (max-width: 360px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
+}
+//***********************************************END MEDIA**********************************************
